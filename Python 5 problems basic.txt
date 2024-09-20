@@ -1,0 +1,57 @@
+1.
+print("Hello world")
+
+o/p:
+
+Hello world
+
+
+2.
+print("String Manipulation Excercise")
+print("String Concatenation is done with '+' sign")
+print("eg: print('Hello' + 'Jenny')")
+print("New lines can be created with backslash and n")
+
+o/p:
+
+String Manipulation Excercise
+String Concatenation is done with '+' sign
+eg: print('Hello' + 'Jenny')
+New lines can be created with backslash and n
+
+
+3.
+input("what is your name:  ")
+
+o/p:
+
+what is your name:  Priya
+
+4.
+a=3
+b=4
+c=a+b 
+print(c)
+print(type(c))
+print("the addition of a and b is: ",(c))
+
+
+o/p:
+
+7
+<class 'int'>
+the addition of a and b is:  7
+
+5.
+
+print("Hey" + " "+ input("What is your name?")+", "+"How are you?")
+
+o/p:
+
+What is your name?
+Priya
+Hey Priya, How are you?
+
+
+
+
