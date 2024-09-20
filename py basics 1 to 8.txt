@@ -1,0 +1,117 @@
+1.
+
+name=input("what is your name?")
+print(name)
+print("Hello"+" "+ (name))
+
+o/p:
+
+what is your name?Priya
+Priya
+hello Priya
+
+2.
+#variable is a container to store data, and it is changable unlike c language.
+
+name="priya"
+print(name)
+name="vinuthna"
+print(name)
+
+o/p:
+
+priya
+vinuthna
+
+3.
+#to calculate the length of a word we use len()
+
+name=input("what is your name?")
+length=len(name)
+print(length)
+
+o/p:
+
+what is your name?Priya
+5
+
+
+4.
+
+a=52
+b="Vinuthna"
+print(a)
+print(b)
+
+o/p:
+
+52
+Vinuthna
+
+5.
++ can be used to concatenate strings only, int and str can be concatenated together
+
+
+6.
+
+#to swap two numbers
+a=10
+b=5
+temp=a
+a=b
+b=temp
+print("the value of a :",a)
+print("the value of b :",b)
+
+o/p:
+the value of a : 5
+the value of b : 10
+ 
+or
+
+
+a=input("enter the value of a: ")
+b=input("enter the value of b: ")
+temp=a
+a=b
+b=temp
+print("the value of a :",a)
+print("the value of b :",b)
+
+o/p:
+
+enter the value of a: 1
+enter the value of b: 2
+the value of a : 2
+the value of b : 1
+
+
+7.a variable name can start with alphabets but not with numbers or underscore and a variable cannot have a space in b/w.eg: roll no
+	eg: name_1
+	    Name1
+both in the above are acceptable
+but 
+	1_Name
+	1name 
+	_name
+is not allowed. it will show as error
+
+	1. Camel case:
+			eg: myName    or    hiBye
+	2. Pascal case: 
+			eg: MyName     or    HiBye
+	3. Snake case: 
+			eg: my_name     or   hi_bye_girl
+
+
+8. Different Kinds of Python Data Types
+
+a. Numeric data types: int, float, complex.
+b. String data types: str.
+c. Sequence types: list, tuple, range.
+d. Binary types: bytes, bytearray, memoryview.
+e. Mapping data type: dict.
+f. Boolean type: bool.
+g. Set data types: set, frozenset.
+
+
